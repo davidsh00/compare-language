@@ -12,7 +12,8 @@ const programRate = [
   { id: "learning-complex", rate: [1, 0, 2, 3] },
   { id: "package-library", rate: [1, 0, 2, 3] },
   { id: "front-web", rate: [0, 1, 2, 3] },
-]; 
+  { id: "server-side", rate: [2, 1, 0, 3] },
+];
 function App() {
   const [cards, setCards] = useState([]);
   return (
