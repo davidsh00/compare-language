@@ -1,0 +1,12 @@
+.langSort {
+  @apply w-full max-w-[32rem] border shrink-0 overflow-hidden;
+}
+.item:nth-child(even) {
+  @apply bg-gray-200;
+}
+.item {
+  @apply rounded p-2 flex justify-between hover:bg-gray-400 transition-all hover:text-gray-50;
+}
+.header {
+  @apply font-bold p-2;
+}
