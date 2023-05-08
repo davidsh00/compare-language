@@ -6,6 +6,7 @@ import LangSort from "./components/LangSort";
 const programRate = [
   { id: "security", rate: [2, 0, 1, 3] },
   { id: "pupularity", rate: [1, 2, 0, 3] },
+  { id: "performance", rate: [3, 0, 2, 1] },
   { id: "cross-platform", rate: [2, 0, 1, 3] },
   { id: "company-used", rate: [0, 1, 3, 2] },
   { id: "data-science", rate: [1, 2, 3, 0] },
