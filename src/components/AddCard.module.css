@@ -2,11 +2,11 @@
   @apply h-full flex relative justify-center items-center;
 }
 .addBox {
-  @apply absolute transition-all w-full opacity-0  left-[0] top-[0]  flex flex-col overflow-auto;
+  @apply invisible absolute transition-all w-full opacity-0  left-[0] top-[0]  flex flex-col overflow-auto;
   max-height: 100%;
 }
 .addBox.show {
-  @apply opacity-100;
+  @apply opacity-100 visible;
 }
 .addIcon {
   @apply text-2xl pb-1 flex justify-center items-center text-green-400 font-bold rounded-full  w-16 h-16 bg-gray-100;
